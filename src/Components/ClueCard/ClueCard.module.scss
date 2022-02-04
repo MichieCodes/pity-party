@@ -1,0 +1,52 @@
+.clue-card {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  position: absolute;
+  padding: 1.875rem;
+  font-size: 2.4vw;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25), 3px 4px 0px #000000;
+  border-width: 8px;
+  opacity: 0;
+  transform: scale(0);
+  animation: scale-in 0.3s ease-in-out 0.15s forwards;
+
+  h1 {
+    margin: 0;
+  }
+
+  hr {
+    width: 50%;
+  }
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    white-space: nowrap;
+  }
+}
+
+@keyframes scale-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

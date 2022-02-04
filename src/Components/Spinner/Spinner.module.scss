@@ -1,0 +1,37 @@
+@import '/src/Utils/_variables.scss';
+
+.spinner {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+
+  linearGradient { 
+    stop:nth-child(1) {
+      stop-color: $spinner-accent-end;
+    }
+    stop:nth-child(2) {
+      stop-color: $spinner-accent-start;
+    }
+  }
+}
+
+.stroke {
+  stroke: $spinner-stroke;
+}
+
+.path {
+  stroke-dasharray: 121.7326;
+  stroke-dashoffset: 121.7326;
+  transform-origin: 50%;
+  transform: rotate(-90deg);
+  
+  animation: fill-spinner 6s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fill-spinner {
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -121.7326;
+  }
+}

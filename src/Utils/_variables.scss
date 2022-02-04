@@ -1,0 +1,30 @@
+$text-color-light: #FDFDFD;
+$accent-color: #FFA85A;
+
+$danger-color: #ff0a29;
+
+$border-color: #191919;
+$overlay-color: rgba(0, 0, 0, 0.4);
+
+$spinner-stroke: #394655;
+$spinner-accent-start: #00057B;
+$spinner-accent-end: #56A0C0;
+
+$card-gradient-start: #0910BF;
+$card-gradient-end: #00057B;
+$background-gradient-start: #A5D9FF;
+$background-gradient-end: #3567AD;
+
+$card-gradient: radial-gradient(
+  50% 50% at 50% 50%,
+  $card-gradient-start 0%,
+  $card-gradient-end 100%
+);
+$background-gradient: radial-gradient(
+  50% 50% at 50% 50%, 
+  $background-gradient-start 0%,
+  $background-gradient-end 100%
+);
+
+$overlay-blur: blur(10px);
+$box-shadow: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3)) drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.5));

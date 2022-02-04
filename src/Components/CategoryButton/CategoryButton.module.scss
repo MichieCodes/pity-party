@@ -1,0 +1,24 @@
+@import '/src/Utils/_variables.scss';
+
+.category-button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 0.625rem;
+  font-size: 3vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  outline: 0;
+  color: $accent-color !important;
+  text-shadow: 4px 4px 0px #000000, 3px 3px 0px #000000;
+  transition: color 0.15s ease-in-out;
+
+  &:hover {
+    color: $text-color-light !important;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,12 @@
+@import '/src/Utils/_variables.scss';
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+  padding: 0 7px 0 7px;
+  height: 100%;
+  margin: 0 1.875rem 1.875rem;
+  filter: $box-shadow;
+  background: $border-color;
+}

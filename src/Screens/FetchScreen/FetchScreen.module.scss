@@ -1,0 +1,19 @@
+@import '/src/Utils/_variables.scss';
+
+.fetch-screen {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+
+  h1 {
+    font-size: 3.515rem;
+    font-weight: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.35);
+    color: $text-color-light;
+  }
+}
+
+.overlay {
+  z-index: 0;
+}

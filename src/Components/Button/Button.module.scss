@@ -1,0 +1,20 @@
+@import '/src/Utils/_variables.scss';
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  padding: 0.625rem 2.25rem;
+  font-size: 1.75vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  outline: 0;
+  border: 3.5px solid $border-color;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 0px #000000;
+  color: $text-color-light;
+  background: $background-gradient-end;
+  transition: background 0.15s ease-in-out;
+
+  &:hover {
+    background: $spinner-accent-start;
+  }
+}

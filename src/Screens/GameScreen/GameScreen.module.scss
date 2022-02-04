@@ -1,0 +1,29 @@
+@import '/src/Utils/_variables.scss';
+
+.header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 1.875rem;
+
+  & > span {
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    font-size: 1.875rem;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4);
+    
+    span {
+      font-size: 2.1rem;
+    }
+  }
+}
+
+.game-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.danger {
+  color: $danger-color !important;
+}
