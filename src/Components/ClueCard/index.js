@@ -3,6 +3,7 @@ import Speaker from '../../Utils/Speaker';
 import { UseScoreFunctionContext } from '../../Context/ScoreContext';
 
 import Button from '../Button';
+
 import styles from './ClueCard.module.scss';
 
 function ClueCard({card, close}) {

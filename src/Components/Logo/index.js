@@ -1,7 +1,7 @@
 import React from 'react';
 
-import styles from './Logo.module.scss';
 import logo from '../../Assets/logo.png';
+import styles from './Logo.module.scss';
 
 function Logo({size = "22vw", margin = "2.35rem"}) {
   return (

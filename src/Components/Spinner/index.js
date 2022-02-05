@@ -7,7 +7,6 @@ function Spinner({loading, closeCallback}) {
     if(!closeCallback) return; 
 
     if(loading === false) closeCallback();
-      // AnimateModal(Overlay.current, () => closeCallback(), 'OverlayFadeOut');
   }, [loading, closeCallback]);
 
   return (

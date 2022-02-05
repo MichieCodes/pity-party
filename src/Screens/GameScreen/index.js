@@ -3,9 +3,9 @@ import { UseScoreDataContext } from '../../Context/ScoreContext';
 
 import Logo from '../../Components/Logo';
 import Board from '../../Components/Board';
+import GameOverCard from '../../Components/GameOverCard';
 
 import styles from './GameScreen.module.scss';
-import GameOverCard from '../../Components/GameOverCard';
 
 function GameScreen({next}) {
   const {Score, GameOver} = UseScoreDataContext();

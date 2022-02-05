@@ -1,13 +1,13 @@
 // jservice.io
 import React from 'react';
 import { ScoreProvider } from './Context/ScoreContext';
+import { ClueProvider } from './Context/ClueContext';
 
 import FetchScreen from './Screens/FetchScreen';
 import CategoryScreen from './Screens/CategoryScreen';
 import GameScreen from './Screens/GameScreen';
 
 import './App.scss';
-import { ClueProvider } from './Context/ClueContext';
 
 const Screens = {FETCH: 0, CATEGORY: 1, GAME: 2};
 
