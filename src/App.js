@@ -15,8 +15,8 @@ function App() {
   const [activeScreen, setactiveScreen] = React.useState(Screens.FETCH);
 
   return (
-    <ScoreProvider>
-      <ClueProvider>
+    <ClueProvider>
+      <ScoreProvider>
         <div className="App">
           {activeScreen === Screens.FETCH && 
             <FetchScreen next={() => setactiveScreen(Screens.CATEGORY)}/>}
@@ -25,8 +25,8 @@ function App() {
           {activeScreen === Screens.GAME && 
             <GameScreen next={() => setactiveScreen(Screens.FETCH)}/>}
         </div>
-      </ClueProvider>
-    </ScoreProvider>
+      </ScoreProvider>
+    </ClueProvider>
   );
 }
 
