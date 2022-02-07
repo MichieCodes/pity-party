@@ -15,7 +15,5 @@ export default function UseClueReducer() {
 	const setClues = React.useCallback((type, payload) => 
     ClueReducerDispatch({type, payload}), []);
 
-  console.log(Clues)
-
 	return [Clues, setClues];
 }

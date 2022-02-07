@@ -5,7 +5,6 @@ import CategoryTitle from '../CategoryTitle';
 import styles from './CategoryColumn.module.scss';
 
 function CategoryColumn({category}) {
-  console.log(category)
   return (
     <div className={styles['category-column']}>
       <CategoryTitle category={category.title}/>
