@@ -24,7 +24,7 @@ function FetchScreen({next}) {
       <div ref={Overlay} className={`overlay ${styles.overlay}`}></div>
       <div className={styles['fetch-screen']}>
         <h1>Fetching Clues</h1>
-        <Spinner loading={true} closeCallback={() => console.log("Hello")}/>
+        <Spinner loading={true}/>
         <h1>Please StandBy</h1>
       </div>
     </>

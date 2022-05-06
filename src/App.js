@@ -1,4 +1,3 @@
-// jservice.io
 import React from 'react';
 import { ScoreProvider } from './Context/ScoreContext';
 import { ClueProvider } from './Context/ClueContext';
